@@ -1,0 +1,11 @@
+libemlrt.lib
+libcovrt.lib
+libut.lib
+libmwblas.lib
+libmwmathutil.lib
+/export:mexFunction
+/export:emlrtMexFcnProperties
+/export:TransitiveKNN_part2
+/export:TransitiveKNN_part2_initialize
+/export:TransitiveKNN_part2_terminate
+/export:TransitiveKNN_part2_atexit
