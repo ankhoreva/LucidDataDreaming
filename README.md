@@ -1,9 +1,6 @@
 # LucidDataDreaming
 
 #### A. Khoreva, R. Benenson, E. Ilg, T. Brox and B. Schiele 
-
-#### Max-Planck Institute for Informatics
-
 [Lucid Data Dreaming for Multiple Object Tracking](https://arxiv.org/abs/1703.09554)
 
 ![TEASER](http://datasets.d2.mpi-inf.mpg.de/khoreva_LucidTracker/fig_arch.v2.png)
@@ -18,18 +15,21 @@ For any problem with implementation or bug, please contact [Anna Khoreva](https:
 
 ## Citation
 
-[Khoreva et al., 2017] Lucid Data Dreaming for Multiple Object Tracking, A. Khoreva, R. Benenson, E. Ilg, T. Brox and B. Schiele, arXiv preprint arXiv:1703.09554, 2017.
-
+Lucid Data Dreaming for Multiple Object Tracking, A. Khoreva, R. Benenson, E. Ilg, T. Brox and B. Schiele, arXiv preprint arXiv:1703.09554, 2017.
+```
 @inproceedings{LucidDataDreaming_arXiv17,
  title={Lucid Data Dreaming for Multiple Object Tracking},
  author={A. Khoreva and R. Benenson and E. Ilg and T. Brox and B. Schiele},
  booktitle={arXiv preprint arXiv: 1703.09554},
  year={2017}}
 
-[Khoreva et al., CVPR Workshops 2017] Lucid Data Dreaming for Object Tracking, A. Khoreva, R. Benenson, E. Ilg, T. Brox and B. Schiele. The 2017 DAVIS Challenge on Video Object Segmentation - CVPR Workshops, 2017.
-
+```
+Lucid Data Dreaming for Object Tracking, A. Khoreva, R. Benenson, E. Ilg, T. Brox and B. Schiele. The 2017 DAVIS Challenge on Video Object Segmentation - CVPR Workshops, 2017.
+```
 @inproceedings{LucidDataDreaming_CVPR17_workshops,
  title={Lucid Data Dreaming for Object Tracking},
  author={A. Khoreva and R. Benenson and E. Ilg and T. Brox and B. Schiele},
  booktitle={The 2017 DAVIS Challenge on Video Object Segmentation - CVPR Workshops},
  year={2017}}
+
+```
