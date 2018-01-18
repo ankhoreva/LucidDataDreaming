@@ -2,7 +2,9 @@
 
 [Lucid Data Dreaming for Multiple Object Tracking](https://arxiv.org/abs/1703.09554), A. Khoreva, R. Benenson, E. Ilg, T. Brox and B. Schiele, arXiv preprint arXiv:1703.09554, 2017.
 
+
 ![TEASER](http://datasets.d2.mpi-inf.mpg.de/khoreva_LucidTracker/fig_arch.v2.png)
+
 
 Lucid Data Dreaming is a data augmentation technique for semi-supervised video object segmentation (pixel-level object tracking).
 It generates in-domain training data using the provided annotation on the first frame of each video to synthesize (“lucid dream”) plausible future video frames. This data augmentation allows us to train high quality appearance- and motion-based models for pixel-level tracking while using 20×∼100× less annotated data than competing methods.
