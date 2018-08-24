@@ -130,8 +130,8 @@ new_seg3f=cat(3, mask_fg, mask_fg);
 Flow_F=F_Flowf.*(new_seg3f>0);
 
 elseif transf_id==3 % just background transformation
-[back_img_2, F_Flowb, B_Flowb, back_gt_2]= augment_background(im_1, mask_bg,back_img_1);
-[new_seg2, new_img2, new_bb2] =  augment_foreground(back_img_2, mask_fg, back_img_2,back_gt_2,0,0);
+[back_img_2, F_Flowb, B_Flowb, back_gt_2] = augment_background(back_img_obj_1, mask_bg,back_img_1);
+[new_seg2, new_img2, new_bb2] =  augment_foreground(im_1, mask_fg,back_img_2,back_gt_2,0,0);
 Flow_B=B_Flowb;
 Flow_F=F_Flowb;
 end
